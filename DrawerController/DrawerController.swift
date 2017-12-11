@@ -93,11 +93,9 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
             self.internalDrawerWidth = value
         }
     }
-    
-    @IBInspectable
+
     public var gestureSenstivity: DrawerGestureSensitivity = .normal
-    
-    @IBInspectable
+
     public var options: DrawerOption = DrawerOption()
     
     @IBInspectable
